@@ -1,0 +1,20 @@
+{
+  "name": "vrf-redirect",
+  "version": "0.0.0",
+  "description": "Vrf effect for redirection to the created resource page",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc ./src/index.ts --outDir ./lib --target es6 --moduleResolution node",
+    "pub": "npm run build && npm publish"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.2",
+    "vrf": "^0.50.1-effects.4"
+  },
+  "dependencies": {
+    "url-join": "^4.0.1"
+  }
+}
