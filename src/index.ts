@@ -7,9 +7,9 @@ export default (
     redirectTo = (path, form) => form.$router.replace(path),
     prefix = (form) => ""
   } :  {
-    redirectTo: (path: string, form: any) => void,
-    prefix: (form: any) => string
-  }
+    redirectTo?: (path: string, form: any) => void,
+    prefix?: (form: any) => string
+  } = {}
 ) : Effect => {
   return {
     name: 'redirect',
