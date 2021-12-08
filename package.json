@@ -1,6 +1,6 @@
 {
   "name": "vrf-redirect",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Vrf effect for redirection to the created resource page",
   "main": "dist/index.js",
   "scripts": {
